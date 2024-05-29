@@ -1,0 +1,401 @@
+/* ここから下に記載していく */
+
+/* <!-- header --> */
+/* <!-- header navi--> */
+.top-header-logo{
+    max-width: 200px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 21px;
+}
+ul li{
+    margin-right: 50px;
+}
+.top-header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* <!-- header navi--> */
+
+/* main visual */
+
+.main-visual{
+    display: grid;
+    place-content: center;
+    background: url("../img/mainbg.png") no-repeat left center; 
+    background-size: cover;
+    height: 36.6vw;
+}
+
+.main-visual_catchcopy{
+    text-align: center;
+    font-size: 34px;
+    font-weight:bold;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.main-visual_sub-catchcopy{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+/* main visual */
+/* <!-- header --> */
+
+/* main */
+/* ABOUT */
+#about{
+    margin-top: 60px;
+}
+.about-comment{
+    text-align: center;
+}
+
+.about-title{
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+.about-subtitle{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.about-comment-description1{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.about-comment-description2{
+    font-size: 16px;
+}
+.about-comment-description2-1{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.about-comment-description3{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.about-comment-description4{
+    font-size: 16px;
+}
+.about-comment-description4-1{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.about-picture{
+    display: flex;
+    justify-content: center;
+}
+/* ABOUT */
+
+/* COURSE */
+#course{
+    margin-top: 60px;
+}
+.course-comment{
+    text-align: center;
+}
+.course-title{
+    font-size: 24px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.course-comment-description2{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+/* /* COURSE01 */ 
+#course01{
+    background-color: #fafafa;
+}
+.contents01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_course01 h2{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px; 
+    margin-bottom: 40px;
+}
+.box_course01 p{
+    font-size: 16px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+
+/* /* COURSE02 */
+#course02{
+    background-color: #fafafa;
+}
+.contents02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_course02 h2{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px; 
+    margin-bottom: 40px;
+}
+.box_course02 p{
+    text-align: left;
+    font-size: 16px;
+    margin-right: 50px;
+    line-height: 25px;
+}
+
+/* /* COURSE03 */
+#course03{
+    background-color: #fafafa;
+}
+.contents03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_course03 h2{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px; 
+    margin-bottom: 40px;
+}
+.box_course03 p{
+    font-size: 16px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+/* COURSE */
+
+/* <!-- NEWS --> */
+
+#news{
+    margin-top: 60px;
+}
+.news-header{
+    text-align: center;
+}
+.news-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-bottom: 30px;
+}
+.news-subtitle{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+/* <!-- article01 --> */
+.news-article{
+    display: flex;
+    justify-content: center;
+}
+.article{
+    margin-right: 30px;
+
+}
+.cardlist{
+    max-width: 300px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+.date{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.cardlist p{
+    line-height:1.6 ;
+}
+/* <!-- NEWS --> */
+
+/* MORE */
+
+.news-footer{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: #ffd61a;
+}
+.news-button{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-width: 264px;
+    padding: 16px 0;
+    border: none;
+    background: #ffd61a;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+/* MORE */
+
+/* <!-- ACCESS --> */
+
+#access{
+    background: #fafafa;
+}
+.access-title{
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.access-subtitle{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.access-map{
+    margin-bottom: 60px;
+}
+.access-info{
+    display: grid;
+    place-items: center;
+    line-height: 30px;
+    padding-bottom: 60px;
+    text-align: left;
+}
+#access table{
+    text-align: left;
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+.access-map iframe{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1366/300;
+}
+/* <!-- ACCESS --> */
+
+/* CONTACT */
+
+#contact{
+    margin-top: 60px;
+}
+.contact-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact-subtitle{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.comment1{
+    margin-bottom: 30px;
+}
+.contact-comment-description{
+    text-align: center;
+    line-height: 25px;
+}
+.comment2{
+    margin-bottom: 70px;
+}
+.contact-comment-description2{
+    text-align: center;
+    line-height: 25px;
+}
+
+.contact-table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-body{
+    padding: 20px;
+    border: 1px solid #bfbfbf;
+}
+.contact-item{
+    padding: 20px;
+    border: 1px solid #bfbfbf;
+}
+
+.contact-item{
+    text-align: left;
+    width: 30%;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.contact-body{
+    width: 70%;
+}
+.fotm-text{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    appearance: none;
+
+    max-width: 400px;
+}
+
+.form-textarea{
+    width: 100px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    appearance: none;
+
+}
+.contact-douki{
+    display: block;
+}
+.contact-douki-txt{
+    margin-left: 5px;
+}
+.send-button{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-width: 264px;
+    padding: 16px 0;
+    border: none;
+    background: #ffd61a;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.submit-button{
+    text-align: center;
+}
+
+/* CONTACT */
+
+/* footer */
+.under-footer{
+    padding: 28px 0;
+    background: #707070;
+    text-align: center;
+    margin-top: 140px;
+}
+.footer-box{
+    color: #fff;
+    font-size: 1.4rem;
+}
